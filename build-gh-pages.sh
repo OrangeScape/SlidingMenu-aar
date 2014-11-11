@@ -39,7 +39,7 @@ git add --all .
 git commit -m "Website at $(date)"
 
 # Push the new files up to GitHub
-git push origin gh-pages
+git push origin gh-pages -f
 
 # Delete our temp folder
 cd ..
